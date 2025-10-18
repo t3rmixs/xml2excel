@@ -40,7 +40,7 @@ Virtual environments are **highly recommended** to manage dependencies.
 
 1.  **Clone the repository:**
     ```bash
-    git clone https://github.com/username/xml2excel.git
+    git clone https://github.com/t3rmixs/xml2excel.git
     cd xml2excel
     ```
 2.  **Create and activate a virtual environment:**
@@ -67,9 +67,9 @@ Make sure you have activated your virtual environment before running the scripts
 Use `convert_xml.py`:
 
 ```bash
-python3 convert_xml.py simple.xml -o result_filename_simple.xlsx
+python3 convert_xml.py small.xml -o result_filename_small.xlsx
   ```
-  *Replace `simple.xml` with your XML file path and `result_filename_simple.xlsx` with the desired output filename.*
+  *Replace `small.xml` with your XML file path and `result_filename_small.xlsx` with the desired output filename.*
 
 ### For Large XML Files (>500MB)
 
