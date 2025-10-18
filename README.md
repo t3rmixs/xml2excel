@@ -35,6 +35,8 @@ Virtual environments are **highly recommended** to manage dependencies.
     ```bash
     pip install -r requirements.txt
     ```
+<img width="1468" height="677" alt="Image" src="https://github.com/user-attachments/assets/cc10a2e6-2256-47ae-9c55-4ee42df47ffa" />
+
 
 ### Windows (cmd / PowerShell)
 
@@ -57,12 +59,18 @@ Virtual environments are **highly recommended** to manage dependencies.
 
 ## 🚀 Usage
 
+
+
 Make sure you have activated your virtual environment before running the scripts.   
+
 ```bash
     source xml2excel_env/bin/activate
    ```
 
 ### For Standard (Small/Medium) XML Files
+
+<img width="1483" height="694" alt="Image" src="https://github.com/user-attachments/assets/f1b36e9f-2a25-40a6-b5bc-98e691e2c6e5" />
+
 
 Use `convert_xml.py`:
 
@@ -72,6 +80,8 @@ python3 convert_xml.py small.xml -o result_filename_small.xlsx
   *Replace `small.xml` with your XML file path and `result_filename_small.xlsx` with the desired output filename.*
 
 ### For Large XML Files (>500MB)
+
+<img width="1496" height="704" alt="Image" src="https://github.com/user-attachments/assets/c5edad97-914f-4c6a-84fb-91bfb119dfd7" />
 
 Use the memory-efficient `convert_xml_large.py`:
 
@@ -85,7 +95,7 @@ python3 convert_xml_large.py large.xml -o result_filename_large.xlsx
 ## 📝 Notes
 * Virtual environments are recommended to avoid dependency conflicts.
 * Use `convert_xml.py` for small/medium XML files and `convert_xml_large.py` for large XML files.
-
+* Please `upload` and `open` on `google drive` to prevent errors while open the result file.
 ---
 
 ## 🤝 Contributing
