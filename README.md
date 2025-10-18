@@ -23,7 +23,7 @@ Virtual environments are **highly recommended** to manage dependencies.
 
 1.  **Clone the repository:**
     ```bash
-    git clone https://github.com/t3rmix/xml2excel.git
+    git clone https://github.com/t3rmixs/xml2excel.git
     cd xml2excel
     ```
 2.  **Create and activate a virtual environment:**
